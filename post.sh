@@ -4,7 +4,7 @@ FILETWO=./two.txt
 echo "$FILETWO"
 
 counter=1
-while [ $counter -le 10 ]
+while [ $counter -le 100 ]
 do
 
 if test -f "$FILETWO"; then
